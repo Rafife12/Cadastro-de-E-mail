@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Email</title>
+  <link rel="stylesheet" href="style.css"> <!-- Conexão com o CSS externo -->
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Email</h1>
+    <form id="emailForm">
+      <input type="text" id="codigo" placeholder="Código" required>
+      <input type="text" id="nome" placeholder="Nome" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+    <table id="emailTable">
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Nome</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Linhas serão inseridas aqui dinamicamente -->
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script> <!-- Conexão com o JavaScript externo -->
+</body>
+</html>

@@ -1,0 +1,83 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 2rem;
+  }
+  
+  /* Contêiner principal */
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título principal */
+  h1 {
+    text-align: center;
+    color: #4caf50;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Formulário */
+  form {
+    margin-bottom: 2rem;
+  }
+  
+  /* Campos de entrada e botões */
+  input, button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Botão */
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efeito de hover no botão */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+  }
+  
+  /* Bordas e espaçamento das células da tabela */
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo das células */
+  th, td {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  /* Cabeçalho da tabela */
+  th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Linhas alternadas na tabela */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
